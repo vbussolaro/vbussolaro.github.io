@@ -631,3 +631,7 @@ body:not(.user-is-tabbing) a:focus {
 p {
   line-height: 1.5; /* Reduced line height */
 }
+
+.hidden {
+  display: none;
+}
