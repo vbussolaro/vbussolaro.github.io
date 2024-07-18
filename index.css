@@ -622,7 +622,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .sub-highlight {
   font-weight: bold;
-  font-size: 18px; /* Adjust the size as needed */
+  font-size: 16px; /* Adjust the size as needed */
   color: #333; /* Adjust the color as needed */
   display: inline-block;
   margin-bottom: 0.2px; /* Reduced spacing */
