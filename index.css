@@ -456,7 +456,7 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: 25rem;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 800px) {
     .work__box:not(:last-child) {
         margin-bottom: 20rem;
     }
