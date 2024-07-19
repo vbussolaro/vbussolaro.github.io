@@ -574,7 +574,7 @@ body:not(.user-is-tabbing) a:focus {
     }
     
     .about__photo-container {
-        flex: 0.8;
+        flex: 1;
         margin: 0 var(--gutter-huge) 0 0;
     }
 }
