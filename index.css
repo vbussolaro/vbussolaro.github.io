@@ -492,14 +492,14 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-@media(min-width: 1101px) {
+@media(min-width: 901px) {
     .work__image-box {
         flex: 1;
         margin: 0 0 0 8rem;
     }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1000px) {
     .work__code {
         height: 4rem;
     }
