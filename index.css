@@ -570,11 +570,11 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 401px) {
     .about__text {
-        flex: 0 0 55%;
+        flex: 0 0 50%;
     }
     
     .about__photo-container {
-        flex: 1;
+        flex: 0.9;
         margin: 0 var(--gutter-huge) 0 0;
     }
 }
