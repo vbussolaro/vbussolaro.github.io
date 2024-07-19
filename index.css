@@ -541,7 +541,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 300px) {
     .about__content {
         flex-direction: column-reverse;
         align-items: initial;
