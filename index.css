@@ -23,6 +23,7 @@
 }
 
 :root {
+    --font-size-smaller: 1rem;
     --font-size-small: 1.8rem;
     --font-size-normal: 2.2rem;
     --font-size-medium: 2.8rem;
@@ -157,6 +158,21 @@ h2::after {
 h3 {
     font-size: var(--font-size-medium-1);
     margin-bottom: var(--gutter-small);
+}
+,
+h4 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: var(--font-size-small); /* Adjust this variable to your desired size */
+    line-height: var(--line-height-small);
+    color: var(--white);
+    margin-bottom: var(--gutter-small);
+}
+
+@media(max-width: 500px) {
+    h4 {
+        font-size: var(--font-size-smaller); /* Adjust this variable for smaller screens */
+    }
 }
 
 @media(max-width: 500px) {
