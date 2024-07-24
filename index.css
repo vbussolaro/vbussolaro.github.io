@@ -445,6 +445,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(max-width: 500px) {
     .header {
+    justify-content: center;
         text-align: center;
         align-items: center;
     }
