@@ -449,7 +449,7 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .header__text p {
-        transform: scale(.6); /* Remove this line */
+        transform: scale(.7); /* Remove this line */
         font-size: var(--font-size-medium); /* Add this line */
     }
 }
