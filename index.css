@@ -442,6 +442,7 @@ body:not(.user-is-tabbing) a:focus {
     font-size: var(--font-size-medium);
 }
 
+<<<<<<< HEAD
 /* Adjusting text sizes for smaller screens with viewport units */
 
 @media (max-width: 768px) {
@@ -465,6 +466,15 @@ body:not(.user-is-tabbing) a:focus {
     }
     .work__list li, .skills li {
         font-size: 1vw; /* Even more proportional list items */
+=======
+@media(max-width: 500px) {
+    .header {
+        text-align: center;
+    }
+
+    .header__text p {
+        transform: scale(.7);
+>>>>>>> parent of 17943bc (Baseline)
     }
 }
 /* --------------------------------------- */
