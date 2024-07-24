@@ -673,6 +673,6 @@ p {
 @media(max-width: 500px) {
     .btn {
         padding: 0.8rem 3rem; /* Adjust padding as needed */
-        font-size: var(--font-size-small); /* Adjust font size as needed */
+        font-size: var(--font-size-normal); /* Adjust font size as needed */
     }
 }
