@@ -676,3 +676,51 @@ p {
         font-size: var(--font-size-normal); /* Adjust font size as needed */
     }
 }
+
+
+
+/* Adjust the header layout for smaller screens */
+@media(max-width: 500px) {
+    .header__text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .heading-primary {
+        justify-content: center;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .nav__items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav__item {
+        margin-bottom: var(--gutter-small);
+    }
+
+    .btn {
+        padding: 0.8rem 3rem; /* Adjust padding as needed */
+        font-size: var(--font-size-smaller); /* Adjust font size as needed */
+    }
+
+    h4 {
+        font-size: var(--font-size-smaller); /* Adjust this variable for smaller screens */
+    }
+
+    .heading-primary span {
+        font-size: var(--font-size-medium); /* Adjust size for mobile */
+    }
+
+    .header__text p {
+        font-size: var(--font-size-small); /* Ensure this is included */
+    }
+
+    .sub-highlight {
+        font-size: var(--font-size-smaller); /* Adjust size as needed */
+    }
+}
