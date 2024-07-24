@@ -421,7 +421,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/dark3.jpg');
+        url('./images/dark2.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -446,25 +446,25 @@ body:not(.user-is-tabbing) a:focus {
 
 @media (max-width: 768px) {
     .work__text h3, .about__text h2, .contact__info p {
-        font-size: 16px; /* Smaller headings */
+        font-size: 14px; /* Smaller headings */
     }
     .work__text p, .about__text p, .contact__info p {
-        font-size: 14px; /* Smaller paragraphs */
+        font-size: 13px; /* Smaller paragraphs */
     }
     .work__list li, .skills li {
-        font-size: 13px; /* Smaller list items */
+        font-size: 12px; /* Smaller list items */
     }
 }
 
 @media (max-width: 480px) {
     .work__text h3, .about__text h2, .contact__info h2 {
-        font-size: 14px; /* Even smaller headings for very small screens */
+        font-size: 12px; /* Even smaller headings for very small screens */
     }
     .work__text p, .about__text p, .contact__info p {
-        font-size: 12px; /* Even smaller paragraphs */
+        font-size: 10px; /* Even smaller paragraphs */
     }
     .work__list li, .skills li {
-        font-size: 12px; /* Even smaller list items */
+        font-size: 9px; /* Even smaller list items */
     }
 }
 
