@@ -450,6 +450,8 @@ body:not(.user-is-tabbing) a:focus {
 
     .header__text p {
         text-align: center;
+        align-items: center;
+
         font-size: var(--font-size-small); /* Add this line */
     }
 }
