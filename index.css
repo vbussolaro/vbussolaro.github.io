@@ -178,7 +178,7 @@ h4 {
 
 @media(max-width: 500px) {
     .heading-primary {
-        font-size: var(--font-size-normal);
+        font-size: var(--font-size-medium-1);
     }
 
     h2 {
