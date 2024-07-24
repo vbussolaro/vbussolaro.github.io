@@ -566,6 +566,13 @@ body:not(.user-is-tabbing) a:focus {
 
     .about__photo-container {
         margin-bottom: var(--gutter-normal); /* Add space below the photo */
+        display: flex;
+        justify-content: center; /* Center the photo horizontally */
+    }
+
+    .about__photo {
+        width: 100%; /* Ensure the photo doesn't exceed the container's width */
+        max-width: 200px; /* Adjust as needed */
     }
 }
 
@@ -579,11 +586,10 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .about__photo-container {
-        flex: 0.70;
-        margin: 0 var(--gutter-medium) 0 0;
+        flex: 0.71;
+        margin: 0 var(--gutter-huge) 0 0;
     }
 }
-
 
 /* --------------------------------------- */
 /* ----- Contact ----- */
