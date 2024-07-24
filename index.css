@@ -668,3 +668,11 @@ p {
 .hidden {
   display: none;
 }
+
+/* Adjust the button size Get in Touch for smaller screens */
+@media(max-width: 500px) {
+    .btn {
+        padding: 0.8rem 3rem; /* Adjust padding as needed */
+        font-size: var(--font-size-smaller); /* Adjust font size as needed */
+    }
+}
