@@ -442,19 +442,17 @@ body:not(.user-is-tabbing) a:focus {
     font-size: var(--font-size-medium);
 }
 
-<<<<<<< HEAD
-
-=======
 @media(max-width: 500px) {
     .header {
         text-align: center;
     }
 
     .header__text p {
-        transform: scale(.5);
->>>>>>> parent of 17943bc (Baseline)
+        transform: scale(.7); /* Remove this line */
+        font-size: var(--font-size-small); /* Add this line */
     }
 }
+
 /* --------------------------------------- */
 /* ----- Work ----- */
 /* --------------------------------------- */
