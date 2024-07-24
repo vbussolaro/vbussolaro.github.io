@@ -658,7 +658,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(max-width: 500px) {
     .sub-highlight {
-        font-size: var(--font-size-smaller); /* Adjust size as needed */
+        font-size: var(--font-size-small); /* Adjust size as needed */
     }
 }
 p {
