@@ -449,7 +449,7 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .header__text p {
-        
+
         font-size: var(--font-size-small); /* Add this line */
     }
 }
@@ -656,6 +656,11 @@ body:not(.user-is-tabbing) a:focus {
   margin-bottom: 0.2px; /* Reduced spacing */
 }
 
+@media(max-width: 500px) {
+    .sub-highlight {
+        font-size: var(--font-size-smaller); /* Adjust size as needed */
+    }
+}
 p {
   line-height: 1.5; /* Reduced line height */
 }
