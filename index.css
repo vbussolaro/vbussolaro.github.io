@@ -573,16 +573,7 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-@media(min-width: 401px) {
-    .about__text {
-        flex: 0 0 55%;
-    }
 
-    .about__photo-container {
-        flex: 0.71;
-        margin: 0 var(--gutter-huge) 0 0;
-    }
-}
 
 
 /* --------------------------------------- */
