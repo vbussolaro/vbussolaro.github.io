@@ -421,7 +421,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/dark2.jpg');
+        url('./images/dark3.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -439,7 +439,7 @@ body:not(.user-is-tabbing) a:focus {
     margin: 1.5rem 0 3.5rem;
     max-width: var(--container-medium-width);
     font-family: 'Jost', sans-serif;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-normal);
 }
 
 @media(max-width: 500px) {
