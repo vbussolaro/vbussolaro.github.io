@@ -561,8 +561,11 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(max-width: 500px) {
     .about__content {
-        flex-direction: column-reverse;
-       
+        flex-direction: column-reverse; /* Stack the photo above the text */
+    }
+
+    .about__photo-container {
+        margin-bottom: var(--gutter-normal); /* Add space below the photo */
     }
 }
 
@@ -574,12 +577,13 @@ body:not(.user-is-tabbing) a:focus {
     .about__text {
         flex: 0 0 55%;
     }
-    
+
     .about__photo-container {
         flex: 0.71;
         margin: 0 var(--gutter-huge) 0 0;
     }
 }
+
 
 /* --------------------------------------- */
 /* ----- Contact ----- */
