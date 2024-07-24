@@ -572,7 +572,7 @@ body:not(.user-is-tabbing) a:focus {
 
     .about__photo {
         width: 100%; /* Ensure the photo doesn't exceed the container's width */
-        max-width: 200px; /* Adjust as needed */
+        max-width: 300px; /* Adjust as needed */
     }
 }
 
