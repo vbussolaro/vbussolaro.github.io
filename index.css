@@ -448,6 +448,7 @@ body:not(.user-is-tabbing) a:focus {
     justify-content: center;
         text-align: center;
         align-items: center;
+        max-width: var(--container-small-width);
     }
 
     .header__text p {
